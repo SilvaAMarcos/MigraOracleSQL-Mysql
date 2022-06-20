@@ -1,0 +1,9 @@
+select 
+p.codsec as CODGRUPO, 
+p.descricao as NOMEGRUPO,
+NULL AS IMGGRUPO, 
+NULL AS OBS,
+'0.00' AS COMISSAO,
+'N' AS ENVIADO_ECOMMERCE,
+'N' AS ENVIADO_BEASY
+from pcsecao p;

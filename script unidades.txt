@@ -1,0 +1,1 @@
+select p.unidade as "ID_UNIDADE", p.descricao as "DESCICAO" from pcunidade p;
